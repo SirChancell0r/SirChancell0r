@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OFSS ROI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+      body {
+        background-image: url("OFSSLogo.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <div class="calculator">
+      <h1>OptimumFSS</h1>
+      <h1>ROI Calculator</h1>
+
+      <form class="calculator-form">
+        <label for="numberOfTechnicians">Number of Technicians</label>
+        <input type="number" class="number-of-technicians" placeholder="Enter amount" required>
+
+        <label for="annualPartsRevenue">Annual Parts Revenue</label>
+        <input type="number" class="annual-parts-revenue" placeholder="Enter amount" required>
+
+        <button type="submit">Calculate</button>
+        <button type="button" class="reset-button">Reset</button>
+      </form>
+
+      <h2 class="resultSavedPerYear"></h2>
+
+      <h2 class="resultFiveYearProfit"></h2>
+
+      <h2 class="resultFiveYearROI"></h2>
+
+      <h2 class="resultBreakEvenYears"></h2>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
