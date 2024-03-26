@@ -1,0 +1,4 @@
+- 👋 Hi, I’m Erik Chancellor.
+- 👀 I’m interested in a job in the computer science and software developement fields.
+- 🌱 I’m currently learning JavaScript, Java, SQL, and Solidity.
+- ⚡ Fun fact: I used to be a golf professional and still enjoy playing regularly!
